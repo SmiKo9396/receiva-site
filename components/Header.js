@@ -8,8 +8,18 @@ export default function Header(){
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-navy/5">
       <div className="section py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Image src="/logo.svg" alt="Receiva" width={36} height={36} priority/>
-          <Link href="/" className="text-xl font-semibold">Receiva</Link>
+<div className="flex items-center gap-3">
+  <Link href="/" aria-label="Receiva home" className="flex items-center">
+    <Image
+      src="/Logo_Color_V1.svg"  // exact filename in /public
+      alt="Receiva"
+      width={140}
+      height={32}
+      priority
+      className="h-8 w-auto"
+    />
+  </Link>
+</div>
         </div>
         <nav className="hidden md:flex items-center gap-8 text-[15px]">
           <a href="#how" className="hover:text-teal">How It Works</a>
