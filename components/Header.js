@@ -11,7 +11,7 @@ export default function Header(){
 <div className="flex items-center gap-3">
   <Link href="/" aria-label="Receiva home" className="flex items-center">
     <Image
-      src="/Logo_Color_V1.svg"  // exact filename in /public
+      src="/Logo_v2.svg"  // exact filename in /public
       alt="Receiva"
       width={140}
       height={32}
