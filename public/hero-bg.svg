@@ -1,21 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 680">
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fff7ef"/>
+      <stop offset="0%" stop-color="#fff8f1"/>
       <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
   </defs>
-  <rect width="1600" height="680" fill="url(#sky)"/>
-  <circle cx="1340" cy="120" r="28" fill="#ff5b04" opacity="0.9"/>
-  <ellipse cx="1200" cy="150" rx="80" ry="18" fill="#e4eef0" opacity="0.6"/>
-  <ellipse cx="1280" cy="170" rx="60" ry="14" fill="#e4eef0" opacity="0.5"/>
-  <path d="M0,520 C280,480 560,560 820,540 C1080,520 1320,540 1600,520 L1600,680 L0,680 Z" fill="#2d9c8a" opacity="0.25"/>
-  <path d="M0,560 C320,520 640,600 960,570 C1240,540 1440,570 1600,560 L1600,680 L0,680 Z" fill="#0a2540" opacity="0.08"/>
-  <path d="M980,520 C1080,520 1160,540 1240,560 C1300,575 1380,600 1600,620 L1600,680 L980,680 Z" fill="#ffe7d3"/>
-  <g transform="translate(1080,520)">
-    <rect x="-14" y="12" width="40" height="8" fill="#0a2540" opacity="0.9"/>
-    <rect x="4" y="-40" width="2" height="52" fill="#0a2540"/>
-    <polygon points="4,-40 4,8 44,8" fill="#ffffff"/>
-    <polygon points="4,-20 4,8 -24,8" fill="#e4eef0"/>
+
+  <!-- sky -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="1300" cy="140" r="60" fill="#ff5b04" opacity="0.25"/>
+
+  <!-- subtle clouds -->
+  <g fill="#0a2540" opacity="0.06">
+    <ellipse cx="980" cy="170" rx="90" ry="22"/>
+    <ellipse cx="1040" cy="170" rx="40" ry="14"/>
+    <ellipse cx="1160" cy="220" rx="70" ry="18"/>
   </g>
+
+  <!-- distant shore shapes kept right, left side clear -->
+  <path d="M0,560 C300,520 600,600 1000,540 C1240,510 1420,540 1600,520 L1600,900 L0,900 Z"
+        fill="#edf5f6"/>
+  <path d="M0,650 C320,630 520,680 940,650 C1180,635 1380,690 1600,660 L1600,900 L0,900 Z"
+        fill="#dff1ee"/>
+  <!-- near water -->
+  <path d="M760,720 C1040,700 1260,730 1600,710 L1600,900 L760,900 Z" fill="#2d9c8a" opacity="0.2"/>
 </svg>
