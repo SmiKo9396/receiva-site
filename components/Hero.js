@@ -21,7 +21,7 @@ export default function Hero(){
             <Link href="#lead" className="btn-primary">Protect Your Cashflow</Link>
             <Link href="#how" className="btn-secondary">How It Works</Link>
           </div>
-          <div className="text-sm text-navy/70 mt-4">98.5% of our clients recommend Receiva.</div>
+          <div className="text-sm text-navy/70 mt-4">Receiva</div>
         </div>
       </div>
     </section>
