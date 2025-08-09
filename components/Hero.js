@@ -12,7 +12,7 @@ export default function Hero(){
             <span className="inline-block w-2 h-2 rounded-full bg-teal"></span>
             Active Receivables Management
           </div>
-          <h1>Stop waiting for payments. Start growing your business</h1>
+          <h1>Stop waiting for payments. Start growing your business.</h1>
           <p className="text-lg md:text-xl text-navy/80 mt-5">
             Receiva makes getting paid effortless. Get paid faster, keep relationships strong, 
             and unlock new growth opportunities with Receiva. 
