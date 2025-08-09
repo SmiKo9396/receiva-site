@@ -26,12 +26,12 @@ export default function Problem(){
         <div className="rounded-2xl bg-sand border border-navy/10 p-6 md:p-8 shadow-card">
           <h3 className="text-2xl font-semibold">Receiva’s Solution</h3>
           <p className="text-navy/80 mt-3">
-            We take over your receivables with <b>Active Receivables Management</b> — combining automation with professional follow‑ups
-            so invoices are paid quickly and client relationships stay positive.
+            We take over your receivables with <b>Proactive Receivables Management</b>, combining automation with 
+            professional follow‑ups, ensuring invoices are paid quickly and client relationships stay positive.
           </p>
           <ul className="mt-5 space-y-3 text-navy/80">
             <li><b>Professional phone calls</b> that preserve goodwill.</li>
-            <li><b>Timely email/SMS reminders</b> that keep invoices top‑of‑mind.</li>
+            <li><b>Timely email reminders</b> that keep invoices top‑of‑mind.</li>
             <li><b>Objective feedback collection</b> for upsell and service improvements.</li>
             <li><b>Clear reporting</b> so you always know where cash is.</li>
           </ul>
