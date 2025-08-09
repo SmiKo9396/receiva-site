@@ -12,9 +12,9 @@ export default function Hero(){
             <span className="inline-block w-2 h-2 rounded-full bg-teal"></span>
             Active Receivables Management
           </div>
-          <h1>Proacive Accounts Receivables Management</h1>
+          <h1>Stop waiting for payments; Start growing your business</h1>
           <p className="text-lg md:text-xl text-navy/80 mt-5">
-            Receiva blends <b>technology and personal service</b> — automated reminders,
+            Let Receiva <b>technology and personal service</b> — automated reminders,
             professional phone calls, and objective client feedback — to accelerate payments and surface growth opportunities.
           </p>
           <div className="mt-7 flex gap-3 flex-wrap">
