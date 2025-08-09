@@ -14,8 +14,9 @@ export default function Hero(){
           </div>
           <h1>Stop waiting for payments; Start growing your business</h1>
           <p className="text-lg md:text-xl text-navy/80 mt-5">
-            Let Receiva <b>technology and personal service</b> — automated reminders,
-            professional phone calls, and objective client feedback — to accelerate payments and surface growth opportunities.
+            LReceiva makes getting paid effortless. We combine smart automation with a personal touch. We send timely reminders, 
+            make professional follow-up calls, and gather client feedback; all so you get paid faster, keep relationships strong, 
+            and unlock new growth opportunities.
           </p>
           <div className="mt-7 flex gap-3 flex-wrap">
             <Link href="#lead" className="btn-primary">Protect Your Cashflow</Link>
