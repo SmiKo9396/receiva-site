@@ -14,8 +14,7 @@ export default function Hero(){
           </div>
           <h1>Stop waiting for payments. Start growing your business</h1>
           <p className="text-lg md:text-xl text-navy/80 mt-5">
-            Receiva makes getting paid effortless. We create invoices, send timely reminders, 
-            make professional follow-up calls, and gather client feedback. Get paid faster, keep relationships strong, 
+            Receiva makes getting paid effortless. Get paid faster, keep relationships strong, 
             and unlock new growth opportunities with Receiva. 
           </p>
           <div className="mt-7 flex gap-3 flex-wrap">
