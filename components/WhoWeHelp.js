@@ -4,7 +4,7 @@ export default function WhoWeHelp(){
     ["Retail & E‑commerce","Manage high transaction volumes with ease."],
     ["Professional Services","Smooth cash flow for law firms, accountants, and consultants."],
     ["Medical & Dental Practices","Reduce overdue payments and improve patient billing experiences."],
-    ["Hospitality & Tourism","Get payments in before the next busy season."],
+    ["Social & Recreational Clubs","Improve member experience with Receiva."],
     ["Petrol Stations","Streamline fleet and customer account billing."],
   ]
   return (
