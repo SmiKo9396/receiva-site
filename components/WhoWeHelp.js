@@ -12,7 +12,7 @@ export default function WhoWeHelp(){
       <div className="section py-16 md:py-24">
         <h2>Built for Bermuda Businesses Like Yours</h2>
         <p className="mt-4 text-navy/80 max-w-3xl">
-          If your business sends between 20 and 600 invoices and generates between $20k and $500k of revenue per month, Receiva is designed for you.
+          If your business sends between 20 and 600 invoices and generates between $20k and $300k of revenue per month, Receiva is designed for you.
         </p>
         <div className="mt-10 grid md:grid-cols-3 gap-6">
           {items.map(([t,d]) => (
