@@ -5,7 +5,6 @@ import Problem from '../components/Problem'
 import Active from '../components/Active'
 import HowItWorks from '../components/HowItWorks'
 import WhoWeHelp from '../components/WhoWeHelp'
-import Testimonials from '../components/Testimonials'
 import Benefits from '../components/Benefits'
 import LeadMagnet from '../components/LeadMagnet'
 import FinalCTA from '../components/FinalCTA'
@@ -28,7 +27,6 @@ export default function Home(){
         <Active/>
         <HowItWorks/>
         <WhoWeHelp/>
-        <Testimonials/>
         <Benefits/>
         <LeadMagnet/>
         <FinalCTA/>
