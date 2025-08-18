@@ -1,7 +1,7 @@
 export default function HowItWorks() {
   return (
-    <section id="how" className="bg-white">
-    
+    <section id="how" className="bg-white scroll-mt-28"> {/* offset for sticky header */}
+      <h2 className="text-2xl md:text-3xl font-semibold mb-6">
         Getting Started Is Simple
       </h2>
 
@@ -39,16 +39,5 @@ export default function HowItWorks() {
         />
       </div>
     </section>
-  );
-}
-
-/* Reusable step card */
-function StepCard({ icon, title, body }) {
-  return (
-    <div className="h-full rounded-2xl border border-slate-200 bg-white p-6 md:p-8 shadow-lg">
-      <img src={icon} alt="" aria-hidden="true" className="w-8 h-8 mb-4" />
-      <p className="text-lg md:text-xl font-semibold mb-2">{title}</p>
-      <p className="text-slate-600">{body}</p>
-    </div>
   );
 }
