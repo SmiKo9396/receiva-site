@@ -1,7 +1,7 @@
 export default function HowItWorks() {
   return (
-    <section className="section py-16 md:py-20">
-      <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-slate-900 mb-8">
+    <section id="how" className="bg-white">
+    
         Getting Started Is Simple
       </h2>
 
