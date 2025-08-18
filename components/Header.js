@@ -22,10 +22,10 @@ export default function Header(){
 </div>
         </div>
         <nav className="hidden md:flex items-center gap-8 text-[15px]">
-          <a href="#how" className="hover:text-teal">How It Works</a>
-          <a href="#who" className="hover:text-teal">Who We Help</a>
-          <a href="#lead" className="hover:text-teal">Contact</a>
-          <a href="#lead" className="btn-primary">Protect Your Cashflow</a>
+          <a href="/#how" className="hover:text-teal">How It Works</a>
+          <a href="/#who" className="hover:text-teal">Who We Help</a>
+          <a href="/#lead" className="hover:text-teal">Contact</a>
+          <a href="/#lead" className="btn-primary">Protect Your Cashflow</a>
         </nav>
        <button
   type="button"
@@ -44,10 +44,10 @@ export default function Header(){
       {open && (
         <div className="md:hidden border-t border-navy/5 bg-white">
           <div className="section py-4 flex flex-col gap-3">
-            <a href="#how" onClick={()=>setOpen(false)}>How It Works</a>
-            <a href="#who" onClick={()=>setOpen(false)}>Who We Help</a>
-            <a href="#lead" onClick={()=>setOpen(false)}>Contact</a>
-            <a href="#lead" onClick={()=>setOpen(false)} className="btn-primary text-center">Protect Your Cashflow</a>
+            <a href="/#how" onClick={()=>setOpen(false)}>How It Works</a>
+            <a href="/#who" onClick={()=>setOpen(false)}>Who We Help</a>
+            <a href="/#lead" onClick={()=>setOpen(false)}>Contact</a>
+            <a href="/#lead" onClick={()=>setOpen(false)} className="btn-primary text-center">Protect Your Cashflow</a>
           </div>
         </div>
       )}
