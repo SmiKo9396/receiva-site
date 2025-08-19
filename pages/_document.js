@@ -8,7 +8,6 @@ export default function Document() {
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#0a2540" />
          <link rel="icon" href="/favicon.ico" sizes="any" />
-          <link rel="icon" type="image/png" href="/R_Single Letter.png" /> 
 
         {/* Google Tag Manager */}
         <script
