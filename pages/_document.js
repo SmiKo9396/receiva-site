@@ -5,12 +5,13 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* your existing tags */}
-        <meta charSet="utf-8" />
-        <meta name="theme-color" content="#0a2540" />
          <link rel="shortcut icon" href="/favicon.ico?v=2" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" />
           <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2" />
+
+                  <meta charSet="utf-8" />
+                    <meta name="theme-color" content="#0a2540" />
 
         {/* Google Tag Manager */}
         <script
