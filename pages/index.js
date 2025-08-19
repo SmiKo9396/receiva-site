@@ -14,10 +14,10 @@ export default function Home(){
   return (
     <>
       <Head>
-        <title>Receiva — Get Paid Faster</title>
-        <meta name="description" content="Active receivables management for Bermuda SMBs — technology + professional follow‑ups to get you paid faster."/>
-        <meta property="og:title" content="Receiva — Get Paid Faster"/>
-        <meta property="og:description" content="Active receivables management for Bermuda SMBs — technology + professional follow‑ups to get you paid faster."/>
+        <title>Receiva: Get Paid Faster</title>
+        <meta name="description" content="Active receivables management for Bermuda SMBs: technology + professional follow‑ups to get you paid faster."/>
+        <meta property="og:title" content="Receiva: Get Paid Faster"/>
+        <meta property="og:description" content="Active receivables management for Bermuda SMBs: technology + professional follow‑ups to get you paid faster."/>
         <meta property="og:type" content="website"/>
       </Head>
       <Header/>

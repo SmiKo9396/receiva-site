@@ -1,3 +1,4 @@
+import StepCard from './StepCard';
 export default function HowItWorks() {
   return (
     <section id="how" className="bg-white scroll-mt-28"> {/* offset for sticky header */}
