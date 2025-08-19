@@ -7,7 +7,7 @@ export default function Document() {
         {/* your existing tags */}
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#0a2540" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/R_Single Letter.png" />
 
         {/* Google Tag Manager */}
         <script
