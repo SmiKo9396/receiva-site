@@ -7,7 +7,12 @@ export default function Document() {
         {/* your existing tags */}
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#0a2540" />
-        <link rel="icon" href="/R_Single Letter.png" />
+         <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
         {/* Google Tag Manager */}
         <script
