@@ -1,9 +1,8 @@
 // pages/thankyou.js
 import Head from "next/head"
 import Link from "next/link"
-// If you have shared layout parts, you can import them:
-// import Header from "@/components/Header"
-// import Footer from "@/components/Footer"
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 
 export default function ThankYou() {
   return (
@@ -14,11 +13,12 @@ export default function ThankYou() {
         <meta name="robots" content="noindex" />
       </Head>
 
-      {/* <Header /> */}
+      <Header />   {/* ✅ your site header */}
+
       <main className="min-h-[70vh] bg-white">
-        {/* hero */}
         <section className="section pt-16 md:pt-24 pb-8">
           <div className="grid lg:grid-cols-[1.1fr,0.9fr] gap-10 items-center">
+            {/* left column */}
             <div>
               <div className="inline-flex items-center gap-3 rounded-2xl border border-navy/10 px-3 py-1.5 text-sm">
                 <span className="inline-block h-2.5 w-2.5 rounded-full bg-teal/80" />
@@ -29,8 +29,8 @@ export default function ThankYou() {
                 Thanks — we’ve got your details
               </h1>
               <p className="mt-4 text-[17px] leading-7 text-navy/80">
-                A Receiva specialist will review your message and reach out soon. In the meantime,
-                here’s what to expect and a few ways to speed things up.
+                A Receiva specialist will review your message and reach out soon.
+                In the meantime, here’s what to expect and a few ways to speed things up.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
@@ -58,6 +58,7 @@ export default function ThankYou() {
               </ul>
             </div>
 
+            {/* right card */}
             <div className="rounded-3xl border border-navy/10 bg-white p-6 md:p-8 shadow-sm">
               <h2 className="text-xl font-semibold text-navy">Speed up onboarding</h2>
               <p className="mt-2 text-navy/80">Have these handy and we can move fast:</p>
@@ -87,33 +88,11 @@ export default function ThankYou() {
             </div>
           </div>
         </section>
-
-        {/* stat strip */}
-        <section className="bg-navy/3 border-t border-navy/5">
-          <div className="section py-10">
-            <div className="grid sm:grid-cols-3 gap-4">
-              <StatCard kpi="Minutes" value="Under 60" blurb="to connect your invoice flow" />
-              <StatCard kpi="Recovery uplift" value="5–15%" blurb="typical improvement in DSO" />
-              <StatCard kpi="Markets" value="Bermuda • Cayman • BVI" blurb="local expertise" />
-            </div>
-          </div>
-        </section>
-
-        {/* helpful links */}
-        <section className="section py-12">
-          <div className="rounded-3xl border border-navy/10 p-6 md:p-8">
-            <h3 className="text-lg font-semibold text-navy">Helpful links</h3>
-            <div className="mt-4 flex flex-wrap gap-3">
-              <a href="/#how" className="chip">Implementation steps</a>
-              <a href="/#faq" className="chip">FAQ</a>
-              <a href="/#contact" className="chip">Talk to sales</a>
-            </div>
-          </div>
-        </section>
       </main>
-      {/* <Footer /> */}
 
-      {/* fire conversion events if you want them tied to pageview */}
+      <Footer />   {/* ✅ your site footer */}
+
+      {/* Optional conversion tracking */}
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -123,22 +102,6 @@ export default function ThankYou() {
           `,
         }}
       />
-      <style jsx global>{`
-        .chip {
-          display:inline-flex;align-items:center;padding:.5rem .9rem;border-radius:1rem;
-          border:1px solid rgba(10,37,64,.1);background:#fff;color:#0a2540;font-size:.95rem
-        }
-      `}</style>
     </>
-  )
-}
-
-function StatCard({ kpi, value, blurb }) {
-  return (
-    <div className="rounded-2xl border border-navy/10 bg-white p-5 text-center shadow-sm">
-      <div className="text-xs uppercase tracking-wide text-navy/60">{kpi}</div>
-      <div className="mt-1 text-2xl font-semibold text-navy">{value}</div>
-      <div className="mt-1 text-sm text-navy/70">{blurb}</div>
-    </div>
   )
 }
