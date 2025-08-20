@@ -1,3 +1,4 @@
+import { useRouter } from "next/router"
 import { useEffect, useState } from 'react'
 
 function getUTMs() {
@@ -13,6 +14,8 @@ function getUTMs() {
 export default function LeadMagnet(){
   const [status,setStatus]=useState('')
   const [utms,setUtms]=useState({})
+  const router = useRouter();
+ 
   useEffect(()=>{ setUtms(getUTMs()) },[])
 
   async function handleSubmit(e){
@@ -25,9 +28,17 @@ export default function LeadMagnet(){
       headers:{'Content-Type':'application/json'},
       body: JSON.stringify(data)
     })
-    if(res.ok){ setStatus('Thanks — we’ll be in touch within 24 hours.'); e.target.reset() }
-    else { setStatus('Something went wrong. Please try again.') }
+    if(res.ok){ 
+      // setStatus('Thanks — we’ll be in touch within 24 hours.'); 
+      // e.target.reset()
+
+      router.push("/thankyou")          // 👈 2) "inside handleSubmit" → redirect on success
+    }
+    else { 
+      setStatus('Something went wrong. Please try again.') 
+    }
   }
+
 
   return (
     <section id="lead" className="bg-white">
